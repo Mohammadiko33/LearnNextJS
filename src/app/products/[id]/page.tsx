@@ -1,19 +1,20 @@
-import React from "react";
 import { notFound } from "next/navigation";
 
 interface Props {
-  params: Promise<{ id: string }>;
-  searchParams: Promise<{}>;
+  params: { id: string }; // نه Promise!
+  searchParams?: Record<string, string | string[] | undefined>;
 }
 
-const page = async ({ params }: Props) => {
-  const { id } = await params;
+const ProductPage = async ({ params }: Props) => {
+  // نیازی به await 
+  // نیست، چون Next.js
+  //  خودش آن را resolve می‌کند
+  const { id } = params;
 
-  if (+id > 100) return notFound();
+  const idNumber = Number(id);
+  if (isNaN(idNumber) || idNumber > 100) return notFound();
 
-  return (
-    <div className='rsc text-5xl capitalize'>product id : {id}</div>
-  )
+  return <div className="rsc text-5xl capitalize">product id : {id}</div>;
 };
 
-export default page;
+export default ProductPage;
