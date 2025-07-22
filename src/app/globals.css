@@ -25,13 +25,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.rcenter {
+.rsc {
+  /* row screen center */
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.ccenter {
+.csc {
+  /* column screen center */
   height: 100vh;
   display: flex;
   flex-direction: column;
