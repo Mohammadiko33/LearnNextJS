@@ -17,5 +17,26 @@
       "export default ${TM_FILENAME_BASE};"
     ],
     "description": "TypeScript React Arrow Function Component with interface"
+  },
+
+  "TypeScript React CSR Functional Component": {
+    "prefix": "tsrcsrf",
+    "body": [
+      "\"use client\";",
+      "import React from 'react';",
+      "",
+      "interface Props {",
+      "  ",
+      "}",
+      "",
+      "const ${TM_FILENAME_BASE} = (props: Props) => {",
+      "  return (",
+      "    <div>${TM_FILENAME_BASE}</div>",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "TypeScript React CSR Functional Component with 'use client'"
   }
 }
