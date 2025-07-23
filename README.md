@@ -35,4 +35,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### (auth) > forget password > page.tsx / error.tsx
 
-###
+### اگه ارور را ما از فورگت پسورد بیارم توی روت پوشه اثث دیگه اون لی اوت رو در نظر نمیگیره
+
+---
