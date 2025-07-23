@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 const Register = (props: Props) => {
   return (
-    <div className='rsc text-5xl'>Register</div>
+    <div className='text-5xl'>Register</div>
   );
 };
 

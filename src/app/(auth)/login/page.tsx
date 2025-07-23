@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 const Login = (props: Props) => {
-  return <div className="rsc text-5xl">Login</div>;
+  return <div className="text-5xl">Login</div>;
 };
 
 export default Login;

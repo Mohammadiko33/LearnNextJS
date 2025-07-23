@@ -6,7 +6,7 @@ interface Props {
 
 const ForgetPassword = (props: Props) => {
   return (
-    <div className='rsc text-5xl'>ForgetPassword</div>
+    <div className='text-5xl'>ForgetPassword</div>
   );
 };
 
