@@ -373,3 +373,7 @@ function BlogPost({ post }) {
 | مناسب برای        | داده، SEO، امنیت | فرم، کلیک، انیمیشن |
 
 ---
+
+# Episode 19 : can i use server component in client component ?
+
+### تمام سرور کامپوننت هایی که داخل کلاینت کامپوننت مینویسیم تبدیل به کلاینت کامپوننت میشوند
