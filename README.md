@@ -26,3 +26,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### ولی وقتی اسم فایل تمپلیت باشه ولیو اینپوت خالی میشه
 
 ---
+
+# Episode 14 
+
+### listItem.map() // { list item is not defind } 
+
+### وقتی که ارور داریم مثل روبه رو به کاربر اون صفحه ارور رو نشون نمیده اروری که ما خودمون ساختیم رو نشون میده بجای اروری که خود نکست جی اس میسازه و سایت کرش میکنه
+
+### (auth) > forget password > page.tsx / error.tsx
+
+###

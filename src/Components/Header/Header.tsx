@@ -25,9 +25,8 @@ const Header = (props: Props) => {
     { id: 5, title: "products", link: "/products" },
   ];
 
-
   return (
-    <header className="w-screen fixed">
+    <header className="w-screen fixed top-0">
       <nav className="px-24 py-8 bg-black flex justify-between items-center">
         <ul className="flex gap-4">
           {navItems.map(({ id, title, link }) => (
