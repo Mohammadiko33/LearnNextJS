@@ -1,29 +1,34 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect , useContext} from "react";
 import axios from "axios";
 import { showMassage } from "@/Components/Utiles";
 import { showClinetMassage } from "@/Components/UtilesClient";
+import UserContext from "@/Components/contexts/userContext";
+import type { IUser } from "@/Components/contexts/userContext";
 
 interface Props {}
 
 export interface GetUsers {
-  id: number | string,
-  name: string,
-  email: string,
-  age: number
+  id: number | string;
+  name: string;
+  email: string;
+  age: number;
 }
 
 const ProductsClient = (props: Props) => {
   const [users, setUsers] = useState<GetUsers[]>([]);
 
-    // showMassage("This is the about page and in only server can access this function");
-    showClinetMassage("This is product client page and in only client can access this function");
+  // showMassage("This is the about page and in only server can access this function");
+  showClinetMassage(
+    "This is product client page and in only client can access this function"
+  );
 
+  const {user} = useContext(UserContext)
+
+  console.log(user)
 
   useEffect(() => {
-    axios("http://localhost:8000/users").then(
-      ({ data }) => setUsers(data)
-    );
+    axios("http://localhost:8000/users").then(({ data }) => setUsers(data));
   }, []);
 
   return (
