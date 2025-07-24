@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { showMassage } from "@/Components/Utiles";
+import { showClinetMassage } from "@/Components/UtilesClient";
 
 interface Props {}
 
@@ -16,6 +17,7 @@ const ProductsClient = (props: Props) => {
   const [users, setUsers] = useState<GetUsers[]>([]);
 
     // showMassage("This is the about page and in only server can access this function");
+    showClinetMassage("This is product client page and in only client can access this function");
 
 
   useEffect(() => {
