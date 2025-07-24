@@ -7,10 +7,9 @@ interface Props {}
 const page = async (props: Props) => {
   const res = await fetch("http://localhost:8000/users" , {
     // cache: "no-store", // to prevent caching issues during development
-    cache: "force-cache", // to ensure the data is always fetched fresh
+    // cache: "force-cache", // to ensure the data is always fetched fresh
     next: {
       revalidate: 60, // revalidate every 60 seconds
-      tags: ["users"], // optional, for cache management
     }
   });
   const data = await res.json();
