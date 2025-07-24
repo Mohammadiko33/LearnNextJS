@@ -1,16 +1,18 @@
 import React from "react";
 import { GetUsers } from "@/app/products-client/page";
+import ActionProduct from "./ActionProduct";
+// cd public/database
 // npx json-server --watch db.json --port 8000
 
 interface Props {}
 
 const page = async (props: Props) => {
-  const res = await fetch("http://localhost:8000/users" , {
-    // cache: "no-store", // to prevent caching issues during development
+  const res = await fetch("http://localhost:8000/users", {
+    cache: "no-store", // to prevent caching issues during development
     // cache: "force-cache", // to ensure the data is always fetched fresh
-    next: {
-      revalidate: 60, // revalidate every 60 seconds
-    }
+    // next: {
+    //   revalidate: 60, // revalidate every 60 seconds
+    // },
   });
   const data = await res.json();
 
@@ -19,6 +21,8 @@ const page = async (props: Props) => {
       <h1 className="text-3xl font-bold text-zinc-100 mb-8 text-center">
         🛍️ کاربرهای فروشگاه
       </h1>
+
+      <ActionProduct />
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {data.map(({ name, id, email, age }: GetUsers) => (
