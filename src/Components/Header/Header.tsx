@@ -13,6 +13,7 @@ const Header = (props: Props) => {
     { id: 1, title: "home", link: "/" },
     { id: 2, title: "about", link: "/about" },
     { id: 3, title: "products", link: "/products" },
+    { id: 4, title: "clientProduct", link: "/products-client" },
   ];
 
   return (
