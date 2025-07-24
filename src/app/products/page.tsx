@@ -1,8 +1,6 @@
 import React from "react";
 import { GetUsers } from "@/app/products-client/page";
 import ActionProduct from "./ActionProduct";
-// cd public/database
-// npx json-server --watch db.json --port 8000
 
 interface Props {}
 

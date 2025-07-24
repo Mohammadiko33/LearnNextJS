@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { showMassage } from "@/Components/Utiles";
 
 interface Props {}
 
@@ -13,6 +14,9 @@ export interface GetUsers {
 
 const ProductsClient = (props: Props) => {
   const [users, setUsers] = useState<GetUsers[]>([]);
+
+    // showMassage("This is the about page and in only server can access this function");
+
 
   useEffect(() => {
     axios("http://localhost:8000/users").then(
