@@ -2,6 +2,7 @@ import React from "react";
 import Article from "@/Components/Article";
 import Container from "@/Components/Container";
 import Link from "next/link";
+import AddArticle from './../../Components/AddArticle';
 
 export interface IArticles {
   id?: string | number;
@@ -19,9 +20,14 @@ const Articles = async () => {
     <div className="min-h-screen bg-gradient-to-br from-zinc-900 to-zinc-800 px-6 py-10">
       <Container>
 
-      <h1 className="text-3xl font-bold text-zinc-100 mb-8 text-center">
+<div className="flex justify-between">
+        <h1 className="text-3xl font-bold text-zinc-100 mb-8 text-center">
         {articleItems ? "📑 Articles" : "article's not defined"}
       </h1>
+
+      <AddArticle btnTiTle="Add New Article"/>
+</div>
+
 
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {articleItems.map((item: IArticles) => (

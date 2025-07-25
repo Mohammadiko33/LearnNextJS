@@ -1,144 +1,88 @@
 {
   "articles": [
     {
-      "id": 1,
-      "image": "https://images.openai.com/thumbnails/url/HyuCk3icu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4uyIswdIyMNAp2M_P3ds4qSglM9tL1c_awjPdISjHJinKO8Ao1zA_xjExyKo6oCjRKyTEuqLQ0KijxDFQrBgD2SSkP",
-      "title": "OpenAI releases GPT-5 with multimodal",
-      "caption": "OpenAI releases GPT-5 with multimodal reasoning OpenAI releases GPT-5 with multimodal reasoning.",
-      "date": "2025-07-24"
-    },
-    {
-      "id": 2,
+      "id": "2",
       "image": "https://images.openai.com/thumbnails/url/-LOhynicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5KTrcsC00JsQxJNTBNSjY1iA_zyndx8qnILir1KPR2CnYJdfXMdjZw8yhxd812NI8IiUwuqapyySkPTFcrBgAItSmy",
       "title": "GitHub Copilot expands support for",
       "caption": "GitHub Copilot expands support for more languages GitHub Copilot expands support for more languages.",
       "date": "2025-07-23"
     },
     {
-      "id": 3,
-      "image": "https://images.openai.com/thumbnails/url/zhjPdXicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw72MUpJKTUrNTLNK8gsyjU0icw2jnQOTjQtyKlyLyu0NM4P9C53iw91cXV2DS4t848yMQnzT8lxrQxVKwYAwYgpCg",
-      "title": "Google unveils new AI coding",
-      "caption": "Google unveils new AI coding assistant Google unveils new AI coding assistant.",
-      "date": "2025-07-22"
-    },
-    {
-      "id": 4,
+      "id": "4",
       "image": "https://images.openai.com/thumbnails/url/B_b1Vnicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4p9E8Mq0oK1A0PLUnPDCz0sDQwdKowzfPxDQ11M88OtEzxL_QI8M82zDRJLomKqPCLMCwqqApz9SxUKwYAwj4pJw",
       "title": "Meta open sources new JavaScript",
       "caption": "Meta open sources new JavaScript engine Meta open sources new JavaScript engine.",
       "date": "2025-07-21"
     },
     {
-      "id": 5,
+      "id": "5",
       "image": "https://images.openai.com/thumbnails/url/HyuCk3icu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4uyIswdIyMNAp2M_P3ds4qSglM9tL1c_awjPdISjHJinKO8Ao1zA_xjExyKo6oCjRKyTEuqLQ0KijxDFQrBgD2SSkP",
       "title": "Vercel adds AI-enhanced deployment",
       "caption": "Vercel adds AI-enhanced deployment previews Vercel adds AI-enhanced deployment previews.",
       "date": "2025-07-20"
     },
     {
-      "id": 6,
+      "id": "6",
       "image": "https://images.openai.com/thumbnails/url/-LOhynicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5KTrcsC00JsQxJNTBNSjY1iA_zyndx8qnILir1KPR2CnYJdfXMdjZw8yhxd812NI8IiUwuqapyySkPTFcrBgAItSmy",
       "title": "Stack Overflow launches AI assistant",
       "caption": "Stack Overflow launches AI assistant OverflowAI Stack Overflow launches AI assistant OverflowAI.",
       "date": "2025-07-19"
     },
     {
-      "id": 7,
-      "image": "https://images.openai.com/thumbnails/url/zhjPdXicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw72MUpJKTUrNTLNK8gsyjU0icw2jnQOTjQtyKlyLyu0NM4P9C53iw91cXV2DS4t848yMQnzT8lxrQxVKwYAwYgpCg",
-      "title": "Amazon CodeWhisperer boosts IDE",
-      "caption": "Amazon CodeWhisperer boosts IDE integration Amazon CodeWhisperer boosts IDE integration.",
-      "date": "2025-07-18"
-    },
-    {
-      "id": 8,
+      "id": "8",
       "image": "https://images.openai.com/thumbnails/url/B_b1Vnicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4p9E8Mq0oK1A0PLUnPDCz0sDQwdKowzfPxDQ11M88OtEzxL_QI8M82zDRJLomKqPCLMCwqqApz9SxUKwYAwj4pJw",
       "title": "Apple announces Swift 6 with",
       "caption": "Apple announces Swift 6 with concurrency boost Apple announces Swift 6 with concurrency boost.",
       "date": "2025-07-17"
     },
     {
-      "id": 9,
-      "image": "https://images.openai.com/thumbnails/url/HyuCk3icu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4uyIswdIyMNAp2M_P3ds4qSglM9tL1c_awjPdISjHJinKO8Ao1zA_xjExyKo6oCjRKyTEuqLQ0KijxDFQrBgD2SSkP",
-      "title": "Microsoft enhances TypeScript compiler",
-      "caption": "Microsoft enhances TypeScript compiler speed Microsoft enhances TypeScript compiler speed.",
-      "date": "2025-07-16"
-    },
-    {
-      "id": 10,
+      "id": "10",
       "image": "https://images.openai.com/thumbnails/url/-LOhynicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5KTrcsC00JsQxJNTBNSjY1iA_zyndx8qnILir1KPR2CnYJdfXMdjZw8yhxd812NI8IiUwuqapyySkPTFcrBgAItSmy",
       "title": "JetBrains adds AI to WebStorm",
       "caption": "JetBrains adds AI to WebStorm and IntelliJ JetBrains adds AI to WebStorm and IntelliJ.",
       "date": "2025-07-15"
     },
     {
-      "id": 11,
+      "id": "11",
       "image": "https://images.openai.com/thumbnails/url/zhjPdXicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw72MUpJKTUrNTLNK8gsyjU0icw2jnQOTjQtyKlyLyu0NM4P9C53iw91cXV2DS4t848yMQnzT8lxrQxVKwYAwYgpCg",
       "title": "Bun 2.0 released with faster Node.js",
       "caption": "Bun 2.0 released with faster Node.js runtime Bun 2.0 released with faster Node.js runtime.",
       "date": "2025-07-14"
     },
     {
-      "id": 12,
+      "id": "12",
       "image": "https://images.openai.com/thumbnails/url/B_b1Vnicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4p9E8Mq0oK1A0PLUnPDCz0sDQwdKowzfPxDQ11M88OtEzxL_QI8M82zDRJLomKqPCLMCwqqApz9SxUKwYAwj4pJw",
       "title": "Deno 2.2 improves compatibility with",
       "caption": "Deno 2.2 improves compatibility with npm Deno 2.2 improves compatibility with npm.",
       "date": "2025-07-13"
     },
     {
-      "id": 13,
-      "image": "https://images.openai.com/thumbnails/url/HyuCk3icu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4uyIswdIyMNAp2M_P3ds4qSglM9tL1c_awjPdISjHJinKO8Ao1zA_xjExyKo6oCjRKyTEuqLQ0KijxDFQrBgD2SSkP",
-      "title": "Cloudflare announces AI inference on",
-      "caption": "Cloudflare announces AI inference on edge Cloudflare announces AI inference on edge.",
-      "date": "2025-07-12"
-    },
-    {
-      "id": 14,
-      "image": "https://images.openai.com/thumbnails/url/-LOhynicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5KTrcsC00JsQxJNTBNSjY1iA_zyndx8qnILir1KPR2CnYJdfXMdjZw8yhxd812NI8IiUwuqapyySkPTFcrBgAItSmy",
-      "title": "Firebase now supports vector search",
-      "caption": "Firebase now supports vector search for AI Firebase now supports vector search for AI.",
-      "date": "2025-07-11"
-    },
-    {
-      "id": 15,
+      "id": "15",
       "image": "https://images.openai.com/thumbnails/url/zhjPdXicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw72MUpJKTUrNTLNK8gsyjU0icw2jnQOTjQtyKlyLyu0NM4P9C53iw91cXV2DS4t848yMQnzT8lxrQxVKwYAwYgpCg",
       "title": "Red Hat launches DevSecOps toolkit",
       "caption": "Red Hat launches DevSecOps toolkit Red Hat launches DevSecOps toolkit.",
       "date": "2025-07-10"
     },
     {
-      "id": 16,
-      "image": "https://images.openai.com/thumbnails/url/B_b1Vnicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4p9E8Mq0oK1A0PLUnPDCz0sDQwdKowzfPxDQ11M88OtEzxL_QI8M82zDRJLomKqPCLMCwqqApz9SxUKwYAwj4pJw",
-      "title": "Rust Foundation reveals new roadmap",
-      "caption": "Rust Foundation reveals new roadmap for 2026 Rust Foundation reveals new roadmap for 2026.",
-      "date": "2025-07-09"
-    },
-    {
-      "id": 17,
+      "id": "17",
       "image": "https://images.openai.com/thumbnails/url/HyuCk3icu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4uyIswdIyMNAp2M_P3ds4qSglM9tL1c_awjPdISjHJinKO8Ao1zA_xjExyKo6oCjRKyTEuqLQ0KijxDFQrBgD2SSkP",
       "title": "Next.js 15 introduces streaming layouts",
       "caption": "Next.js 15 introduces streaming layouts Next.js 15 introduces streaming layouts.",
       "date": "2025-07-08"
     },
     {
-      "id": 18,
+      "id": "18",
       "image": "https://images.openai.com/thumbnails/url/-LOhynicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw5KTrcsC00JsQxJNTBNSjY1iA_zyndx8qnILir1KPR2CnYJdfXMdjZw8yhxd812NI8IiUwuqapyySkPTFcrBgAItSmy",
       "title": "Tailwind CSS 4.0 gets experimental",
       "caption": "Tailwind CSS 4.0 gets experimental theming Tailwind CSS 4.0 gets experimental theming.",
       "date": "2025-07-07"
     },
     {
-      "id": 19,
+      "id": "19",
       "image": "https://images.openai.com/thumbnails/url/zhjPdXicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw72MUpJKTUrNTLNK8gsyjU0icw2jnQOTjQtyKlyLyu0NM4P9C53iw91cXV2DS4t848yMQnzT8lxrQxVKwYAwYgpCg",
       "title": "React 19 RC ships with new",
       "caption": "React 19 RC ships with new compiler React 19 RC ships with new compiler.",
       "date": "2025-07-06"
-    },
-    {
-      "id": 20,
-      "image": "https://images.openai.com/thumbnails/url/B_b1Vnicu1mUUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw4p9E8Mq0oK1A0PLUnPDCz0sDQwdKowzfPxDQ11M88OtEzxL_QI8M82zDRJLomKqPCLMCwqqApz9SxUKwYAwj4pJw",
-      "title": "Vue 4 announced with better",
-      "caption": "Vue 4 announced with better reactivity Vue 4 announced with better reactivity.",
-      "date": "2025-07-05"
     }
   ]
 }

@@ -1,11 +1,14 @@
 import React from "react";
 import { IArticles } from "@/app/articles/page";
 import Container from "@/Components/Container";
+import ArticleActions from "@/Components/ArticleActions";
 
 interface Props {
   params: { id: string };
   searchParams?: Record<string, string | string[] | undefined>;
 }
+
+export const dynamic = 'force-dynamic'; // این خط رو اضافه کنید
 
 const page = async ({ params }: Props) => {
   const { id } = params;
@@ -33,6 +36,7 @@ const page = async ({ params }: Props) => {
             </p>
           </div>
           <p className="text-base leading-relaxed text-zinc-200">{caption}</p>
+        <ArticleActions id={id} title={title} caption={caption}/>
         </div>
       </div>
     </Container>
